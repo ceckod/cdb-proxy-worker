@@ -1,0 +1,13 @@
+{
+  "name": "cd-b-shorts-relay-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Малък CORS relay за GitHub Releases upload (uploads.github.com няма CORS) — за AI Shorts Studio, upload до 2GB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
